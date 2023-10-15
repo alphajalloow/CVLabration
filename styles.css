@@ -16,44 +16,50 @@ body {
 	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
 	
 }
-/* /// Försöker fixa header  */
+/* /// Försöker försöker fixa till header */
 .header {
 	text-align: center;
 	height: 270px;
-   	background-color: #373741;
-   	color: white; 
+  background-color: #373741;
+  color: white;
+	margin-left: 46%;
 
 }
 
 .header h1 {
 	 
-  margin-left: 280px;
+  margin-left: 20px;
+	
+	
+
+	
   
 }
 
 .header h3 {
 	text-transform: uppercase;
 	font-size: 15px;
-	font-weight: 500;
+	font-weight: 500%;
 	margin-bottom: 10px; 
-	margin-left: 280px;
+	margin-left: 20px;
 }
 
 .img-area {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    overflow: hidden;
-	padding-top: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+	margin-right: 70;
+  overflow: hidden;
+
 }
 
+/* /// vill flytta bilden till vänster sida */
+
 .img-area img {
-	position: relative;
-	top: 0;
-	left: 0; 
 	width: 100%;
-	height: 100;
+	height: 100%;
 	object-fit: cover;
+	
 
 }
 .main {
@@ -62,10 +68,12 @@ body {
     
 }
 .left {
-position: relative;
-padding: 40px;
-font-size: smaller;
-background-color: #e2d8ce;
+ position: relative;
+ padding: 40px;
+ font-size: smaller;
+ background-color: #e2d8ce;
+ 
+ 
 
 }
 .left p {
@@ -82,7 +90,7 @@ h2 {
 	font-weight: 500; 
 
 
-	
+
 }
 h5 {
 	color: #373741;
@@ -95,8 +103,8 @@ h5 {
 
 .right p {
 	line-height: 1;
-    margin-bottom: 10px;
-    color: #373741;
+  margin-bottom: 10px;
+  color: #373741;
 	font-size: small;
 }
 
